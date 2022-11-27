@@ -18,7 +18,7 @@ async function Game() {
                 ]
             }
         ]);
-        console.log(chalk.bgCyan(`Computer Picks ${computerPick}`));
+        console.log(chalk.magenta(`Computer Picks ${computerPick}`));
         if (options.indexOf(answers.option) === 0 && options.indexOf(computerPick) === 2) {
             console.log(chalk.green("Congrats !!  +10 points"));
             console.log(chalk.bgGreen(`${scores += 10}`));

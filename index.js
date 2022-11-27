@@ -31,7 +31,7 @@ _|__ /_
 \\  '(.-')
 > ._>-'
 / \\/`));
-    console.log(chalk.bgCyan(" Created By: "));
+    console.log(chalk.bgGreen("Created By:"));
     console.log(chalk.green("Usman Ashraf"));
     setTimeout(() => {
         console.log(chalk.green(""));
